@@ -1,4 +1,6 @@
-use &harr; to navigate
+#Automating Feeder Maps Using Data Driven Pages and Arcpy
+Matt Sayler
+Clark Public Utilities
 
 Medium
 
