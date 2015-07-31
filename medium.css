@@ -69,7 +69,7 @@ code .tex .command,
 code .http .title,
 code .request,
 code .status {
-  color: #008;
+  color: #F60;
 }
 
 code .envvar,
