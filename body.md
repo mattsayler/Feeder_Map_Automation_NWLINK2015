@@ -7,9 +7,9 @@
 Matt Sayler
 _Clark Public Utilities_
 
-##Obligatory Stats
+##Obligatory Stats Slide
 * Public Utility District
-* Electric and Water Distribution
+* Electric and Water
 * ~185,000 Electric Meters
 * ~400 Employees
 
@@ -21,46 +21,14 @@ _Clark Public Utilities_
 
 _Dedicated_ full-time employee
 
-~450 pages of _individually_ customized MXD files
+##~450 pages of _individually_ customized MXD files
 * Custom layouts w/selection-set layers
 * Custom jpegs for inset details (~300 images)
 
 Custom 'best-fit' grid layout for _each_ feeder
 
 ![](./Images/AST4_Original.png)
-Example
 
 Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
-
-
-_Presentation software_ for lazy messy hackers
-
-text
-
-from markdown
-
-as _medium_ as it can be
-
-no config
-
-_1.5k_
-
-plus like _50k_ more for Markdown conversion, CSS, and other stuff
-
-![](http://farm9.staticflickr.com/8527/8680357801_712bc7e350_o.png) images too
-
-* also
-* lists
-* as well
-
-```javascript
-var code = true;
-```
-
-based off [big by @tmcw](https://github.com/tmcw/big)
-
-markdown by [marked](https://github.com/chjj/marked)
-
-Syntax highlighting by [Highlight.js](http://softwaremaniacs.org/soft/highlight/en/)
-
-JS+CSS [github.com/ calvinmetcalf/ medium](https://github.com/calvinmetcalf/medium)
+[@mattsayler](https://www.twitter.com/mattsayler)
+[github.com/mattsayler](https://www.github.com/mattsayler)
