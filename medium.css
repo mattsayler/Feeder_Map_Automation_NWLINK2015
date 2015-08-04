@@ -1,7 +1,7 @@
 body {
   font-family: 'Helvetica';
   letter-spacing:-5px;
-  background: #10253F;
+  background: #303;
   background-size:100%;
   color:#fff;
   margin:0;
@@ -12,13 +12,12 @@ body {
 
 h1, h2, h3, p {
   margin:0;
-  text-align:center;
 }
 
 em {
   font-family: 'Futura', 'Helvetica';
   font-style:normal;
-  color:#C30;
+  color:#C90;
 }
 
 img {
@@ -34,7 +33,7 @@ div {
 }
 
 a {
-  background-color:#99CCFF;
+  background-color:#9CF;
   color:#000;
   text-decoration:none;
 }
