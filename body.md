@@ -2,7 +2,7 @@
 
 #-OR-
 
-![](./Images/OneMDXtoRule.png)
+![](Images/OneMDXtoRule.png)
 
 Matt Sayler
 Clark Public Utilities
