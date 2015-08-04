@@ -6,7 +6,7 @@
     };
     xhr.send();
     function onLoad(pres) {
-        marked.setOptions({color: true})
+        marked.setOptions({color: true, heading: true})
         var md = document.getElementById("md");
         var html = marked(pres);
         md.innerHTML = html.replace(/\<(\/)?(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g,'<$1div$2>');
