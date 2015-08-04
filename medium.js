@@ -11,7 +11,7 @@
         var html = marked(pres);
         var startTag = new RegExp(/\<(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g);
         var endTag = new RegExp(/\<\/(?:[ph]|pre|ul)\d?((?:\s*)?\>/g);
-        md.innerHTML = html.replace(startTag, function(match) {return '<div$2>' + match});
+        md.innerHTML = html.replace(startTag, function(match) {return '<div$1>' + match});
         md.innerHTML = html.replace(endTag, function(match) {return match + '</div>'});
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
