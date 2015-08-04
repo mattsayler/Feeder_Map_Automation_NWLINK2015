@@ -20,6 +20,10 @@ h1, h2, h3, p {
   margin:0;
 }
 
+h1 {
+  color:6CF;
+}
+
 em {
   font-family: 'Futura', 'Helvetica';
   font-style:normal;
@@ -39,7 +43,7 @@ div {
 }
 
 a {
-  background-color:#9CF;
+  background-color:#CFC;
   color:#000;
   text-decoration:none;
 }
