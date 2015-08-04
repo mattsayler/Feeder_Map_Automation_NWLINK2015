@@ -5,9 +5,9 @@
 ![](./Images/OneMXDtoRule.png)
 
 Matt Sayler
-Clark Public Utilities
+_Clark Public Utilities_
 
-
+*
 
 Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
 
