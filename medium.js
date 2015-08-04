@@ -9,6 +9,7 @@
         marked.setOptions({color: true})
         var md = document.getElementById("md");
         var html = marked(pres);
+        console.log(html);
         var startTag = new RegExp("\<(p|h|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
         var endTag = new RegExp("\<\/(p|h|pre|ul)\d?\>", "g");
         md.innerHTML = html.replace(startTag, function(match) {console.log(match); var txt = '<div>' + match; console.log(txt); return txt;});
