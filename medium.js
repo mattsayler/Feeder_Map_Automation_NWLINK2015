@@ -11,8 +11,8 @@
         var html = marked(pres);
         var startTag = new RegExp("\<(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
         var endTag = new RegExp("\<\/(?:[ph]|pre|ul)\d?\>", "g");
-        md.innerHTML = html.replace(startTag, function(match) {Console.log(match); var txt = '<div$1>' + match; Console.log(txt); return t;});
-        md.innerHTML = html.replace(endTag, function(match) {Console.log(match); var txt = match + '</div>'; Console.log(txt); return t;});
+        md.innerHTML = html.replace(startTag, function(match) {console.log(match); var txt = '<div$1>' + match; console.log(txt); return t;});
+        md.innerHTML = html.replace(endTag, function(match) {console.log(match); var txt = match + '</div>'; console.log(txt); return t;});
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
         function go(n) {
