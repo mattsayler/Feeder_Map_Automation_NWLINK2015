@@ -7,17 +7,17 @@
 Matt Sayler
 _Clark Public Utilities_
 
-##Obligatory _Stats_ Slide
+Obligatory _Stats_ Slide
 * Public Utility District
 * Electric and Water
 * ~185,000 Electric Meters
 * ~400 Employees
 
-##System
+System
 * ArcGIS 10.0 SP4
 * ArcFM 10.0 SP2
 
-##Brief _History_ of Feeder Maps at Clark
+Brief _History_ of Feeder Maps at Clark
 
 _Dedicated_ full-time employee
 
