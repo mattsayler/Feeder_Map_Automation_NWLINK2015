@@ -8,10 +8,10 @@ Matt Sayler
 _Clark Public Utilities_
 
 Obligatory _Stats_ Slide
-* Public Utility District
-* Electric and Water
-* ~185,000 Electric Meters
-* ~400 Employees
+-Public Utility District
+-Electric and Water
+-~185,000 Electric Meters
+-~400 Employees
 
 System
 * ArcGIS 10.0 SP4
