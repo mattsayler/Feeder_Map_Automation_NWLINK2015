@@ -6,10 +6,10 @@
     };
     xhr.send();
     function onLoad(pres) {
-        marked.setOptions({color: true, heading: true})
+        marked.setOptions({color: true})
         var md = document.getElementById("md");
         var html = marked(pres);
-        md.innerHTML = html.replace(/\<(\/)?(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g,'<$1div$2>');
+        md.innerHTML = html.replace(/\<(\/)?(?:[p]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g,'<$1div$2>');
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
         function go(n) {
