@@ -9,8 +9,8 @@
         marked.setOptions({color: true})
         var md = document.getElementById("md");
         var html = marked(pres);
-        var startTag = new RegExp("\<(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
-        var endTag = new RegExp("\<\/(?:[ph]|pre|ul)\d?\>", "g");
+        var startTag = new RegExp("\<(?:p|h|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
+        var endTag = new RegExp("\<\/(?:p|h|pre|ul)\d?\>", "g");
         md.innerHTML = html.replace(startTag, function(match) {console.log(match); var txt = '<div>' + match; console.log(txt); return txt;});
         md.innerHTML = html.replace(endTag, function(match) {console.log(match); var txt = match + '</div>'; console.log(txt); return txt;});
         var s = document.getElementsByTagName('div'), cur = 0;
