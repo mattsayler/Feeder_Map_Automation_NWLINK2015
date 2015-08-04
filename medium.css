@@ -1,4 +1,7 @@
 body {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
   font-family: 'Helvetica';
   letter-spacing:-5px;
   background: #303;
@@ -25,6 +28,8 @@ em {
 img {
   position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width:100%;
 }
