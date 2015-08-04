@@ -9,7 +9,10 @@
         marked.setOptions({color: true})
         var md = document.getElementById("md");
         var html = marked(pres);
-        md.innerHTML = html.replace(/\<(\/)?(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g, function(match) {'<$1div$2>' + match});
+        var startTag = new RegExp(/\<(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g);
+        var endTag = new RegExp(/\<(\/)(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g);
+        md.innerHTML = html.replace(startTag, function(match) {'<div$2>' + match});
+        md.innerHTML = html.replace(endTag, function(match) {match + '</div>'});
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
         function go(n) {
