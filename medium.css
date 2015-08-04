@@ -19,8 +19,13 @@ em {
   font-style:normal;
   color:#9C0;
 }
-
+.helper {
+  height:100%;
+}
 img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   width:100%;
 }
 
