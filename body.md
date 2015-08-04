@@ -7,7 +7,7 @@
 Matt Sayler
 _Clark Public Utilities_
 
-*Obligatory _Stats_ Slide
+* Obligatory _Stats_ Slide
   * Public Utility District
   * Electric and Water
   * ~185,000 Electric Meters
