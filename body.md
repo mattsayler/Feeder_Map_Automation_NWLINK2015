@@ -7,7 +7,7 @@
 Matt Sayler
 _Clark Public Utilities_
 
-##Obligatory Stats Slide
+##Obligatory _Stats_ Slide
 * Public Utility District
 * Electric and Water
 * ~185,000 Electric Meters
@@ -17,15 +17,15 @@ _Clark Public Utilities_
 * ArcGIS 10.0 SP4
 * ArcFM 10.0 SP2
 
-##Brief History of Feeder Maps at Clark
+##Brief _History_ of Feeder Maps at Clark
 
 _Dedicated_ full-time employee
 
 ~450 pages of _individually_ customized MXD files
-* Custom _layouts_ w/_selection-set_ layers
-* Custom _jpegs_ for inset details (~_300_ images)
+* Custom _layouts_ w/_selection-set layers_
+* Custom _jpegs_ for inset details (_~300_ images)
 
-Custom 'best-fit' grid layout for _each_ feeder
+Custom _'best-fit'_ grid layout for _each_ feeder
 
 ![](./Images/AST4_Original.png)
 
