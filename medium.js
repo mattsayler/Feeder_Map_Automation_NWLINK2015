@@ -10,9 +10,9 @@
         var md = document.getElementById("md");
         var html = marked(pres);
         var startTag = new RegExp(/\<(?:[ph]|pre|ul)\d?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>/g);
-        var endTag = new RegExp(/\<\/(?:[ph]|pre|ul)\d?(?:\s*)?\>/g);
-        md.innerHTML = html.replace(startTag, function(match) {return '<div$1>' + match});
-        md.innerHTML = html.replace(endTag, function(match) {return match + '</div>'});
+        var endTag = new RegExp(/\<\/(?:[ph]|pre|ul)\d?\>/g);
+        md.innerHTML = html.replace(startTag, function(match) {var t = '<div$1>' + match; return t;});
+        md.innerHTML = html.replace(endTag, function(match) {var t = match + '</div>'; return t;});
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
         function go(n) {
