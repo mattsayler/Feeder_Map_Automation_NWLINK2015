@@ -7,7 +7,27 @@
 Matt Sayler
 _Clark Public Utilities_
 
-*
+##Obligatory Stats
+* Public Utility District
+* Electric and Water Distribution
+* ~185,000 Electric Meters
+* ~400 Employees
+
+##System
+* ArcGIS 10.0 SP4
+* ArcFM 10.0 SP2
+
+##Brief History of Feeder Maps at Clark
+
+_Dedicated_ full-time employee
+
+~450 pages of _individually_ customized MXD files
+* Custom layouts w/selection-set layers
+* Custom jpegs for inset details (~300 images)
+
+Custom 'best-fit' grid layout for _each_ feeder
+
+![]()
 
 Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
 
