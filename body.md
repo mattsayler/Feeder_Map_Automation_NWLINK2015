@@ -21,7 +21,7 @@ _Clark Public Utilities_
 * ArcGIS 10.0 SP4
 * ArcFM 10.0 SP2
 
-#A Brief _History_ of the Project
+#Where Things _Started_
 
 _Dedicated_ full-time employee
 
