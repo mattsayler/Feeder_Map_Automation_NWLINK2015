@@ -25,7 +25,7 @@ h1 {
 }
 
 ul, ol {
-  list-style-type: default;
+  list-style-type: square;
 }
 
 em {
