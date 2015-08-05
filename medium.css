@@ -20,6 +20,10 @@ h1, h2, h3, p {
   margin:0;
 }
 
+h1 {
+  color:#9F9;
+}
+
 em {
   font-family: 'Futura', 'Helvetica';
   font-style:normal;
