@@ -11,12 +11,11 @@
         var html = marked(pres);
         var startTag = new RegExp("\<(p|h|pre|ul)[0-9]?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
         var endTag = new RegExp("\<\/(p|h|pre|ul)[0-9]?\>", "g");
-        var fixImgStart = new RegExp("\<[p]\s?.+\>(?:\<[img]\s.+\s?\>)", "g");
-        var fixImgEnd = new RegExp("(?:\<[img]\s.+\s?\>)\<\/[p]\>", "g");
+        var fixImg = new RegExp("\<[p]\s?.+\>(?:\<[img]\s.+\s?\>)\<\/[p]\>", "g");
+        var pTag = new RegExp("\<\/?[p]\>", "g");
         html = html.replace(startTag, function(match) {var txt = '<div>' + match; return txt;});
         html = html.replace(endTag, function(match) {var txt = match + '</div>'; return txt;});
-        html = html.match(fixImgStart).replace('<p>', '<div>');
-        html = html.match(fixImgEnd).replace('</p>', '</div>');
+        html = html.replace(fixImgStart, function(match) {console.log(match); var txt = match.replace(pTag, ""); console.log(txt); return txt});
         console.log(html);
         md.innerHTML = html;
         var s = document.getElementsByTagName('div'), cur = 0;
