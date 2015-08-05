@@ -62,13 +62,13 @@ _Same_ work, _fewer_ resources
 
 Continue with the _existing_ process
 
-(_GIS staff_ mutinies)
+(GIS staff _mutinies_)
 
 #Option Two
 
 Go to a _standardized_ county-wide map grid w/_simplified_ symbology
 
-(_Dispatch staff_ mutinies)
+(Dispatch staff _mutinies_)
 
 #Option Three
 
