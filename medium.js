@@ -14,7 +14,7 @@
         var fixImg = new RegExp("(\<[p]\s?.+\>)(?:\<[img]\s.+\s?\>)?(\<\/[p]\>)", "g");
         html = html.replace(startTag, function(match) {var txt = '<div>' + match; return txt;});
         html = html.replace(endTag, function(match) {var txt = match + '</div>'; return txt;});
-        html = html.replace(fixImg, function(match) {conslole.log(match); var txt = ''; console.log(txt); return txt;});
+        html = html.replace(fixImg, function(match) {console.log(match); var txt = ''; console.log(txt); return txt;});
         console.log(html);
         md.innerHTML = html;
         var s = document.getElementsByTagName('div'), cur = 0;
