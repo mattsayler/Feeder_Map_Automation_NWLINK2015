@@ -32,6 +32,10 @@ _~450_ pages of _individually_ customized MXD files
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
+Page dimensions _constrained_ by storage bins
+
+#Example
+
 ![](./Images/AST4_Original.png)
 
 #Pros:
@@ -102,11 +106,17 @@ Greatly _reduce_ production time
 
 #_How_ does it work?
 
+Data Driven Pages drive the _map_ using our _custom grids_
+
+![](./Images/DialogDDP.png)
+
+A _point_ feature class stores info for _detail insets_
+
 Feature class attributes _drive_ dynamic content
 
 ![](./Images/DrivingTables.png)
 
-![](./Images/DialogDDP.png)
+![](./Images/Layout_Screenshot.png)
 
 #Pros:
 
@@ -126,9 +136,11 @@ _Non-network_ features _can't_ easily be symbolized by _feeder_
 
 (selection set layers formerly)
 
+_Extra_ paper usage
+
 #Another _Cool_ Feature Implemented
 
-_Dynamic_ feeder picklist!
+_Dynamically generated_ feeder picklist!
 
 ![](./Images/ScriptToolDialog.png)
 
