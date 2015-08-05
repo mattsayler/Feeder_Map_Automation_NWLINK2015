@@ -10,7 +10,7 @@
         var md = document.getElementById("md");
         var html = marked(pres);
         var startTagB = new RegExp("\<[h].?\>", "g");
-        var startTag = new RegExp("\<(p|h|ul).?\>", "g");
+        var startTag = new RegExp("\<(p|h|ul)[0-9]?\>", "g");
         // ((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?
         var endTag = new RegExp("\<\/(p|h\d|pre|ul)\>", "g");
         html = html.replace(startTag, function(match) {console.log(match); var txt = '<div>' + match; console.log(txt); return txt;});
