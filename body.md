@@ -66,7 +66,7 @@ Continue with the _existing_ process
 
 #Option Two
 
-Go to a _standardized_ county-wide map grid w/_simplified_ symbology
+Go to a _standardized_, county-wide map grid w/_simplified_ symbology
 
 (Dispatch staff _mutinies_)
 
