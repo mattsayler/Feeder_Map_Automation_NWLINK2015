@@ -21,7 +21,11 @@ h1, h2, h3, p {
 }
 
 h1 {
-  color:#6CF;
+  color:#CCF;
+}
+
+ul {
+  width:100%;
 }
 
 em {
