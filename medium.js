@@ -15,8 +15,7 @@
         var pTag = new RegExp("\<\/?[p]\>", "g");
         html = html.replace(startTag, function(match) {var txt = '<div>' + match; return txt;});
         html = html.replace(endTag, function(match) {var txt = match + '</div>'; return txt;});
-        html = html.replace(fixImg, function(match) {console.log(match); var txt = match.replace(pTag, ""); console.log(txt); return txt});
-        console.log(html);
+        html = html.replace(fixImg, function(match) {var txt = match.replace(pTag, ""); return txt});
         md.innerHTML = html;
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
