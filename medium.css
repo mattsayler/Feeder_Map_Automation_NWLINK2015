@@ -24,8 +24,8 @@ h1 {
   color:#CCF;
 }
 
-ul, ol {
-  position: 50% 50%;
+li {
+  display: list-item;
 }
 
 em {
