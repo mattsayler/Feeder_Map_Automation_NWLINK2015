@@ -145,6 +145,8 @@ Achieved through modifying the script's _validation_ code
 #Questions?
 
 _Thank you!_
+
+* [msayler@clarkpud.com](mailto:msayler@clarkpud.com)
 * [@mattsayler](https://www.twitter.com/mattsayler)
 * [github.com/mattsayler](https://www.github.com/mattsayler)
 * Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
