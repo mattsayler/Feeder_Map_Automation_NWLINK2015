@@ -9,10 +9,8 @@
         marked.setOptions({color: true})
         var md = document.getElementById("md");
         var html = marked(pres);
-        var startTagB = new RegExp("\<[h].?\>", "g");
-        var startTag = new RegExp("\<(p|h|ul)[0-9]?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
-        // ((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?
-        var endTag = new RegExp("\<\/(p|h\d|pre|ul)\>", "g");
+        var startTag = new RegExp("\<(p|h|pre|ul)[0-9]?((?:\s*)?(?:id|class)\=[\'\"]\w+?[\'\"](?:\s*)?)?\>", "g");
+        var endTag = new RegExp("\<\/(p|h|pre|ul)[0-9]?\>", "g");
         html = html.replace(startTag, function(match) {console.log(match); var txt = '<div>' + match; console.log(txt); return txt;});
         html = html.replace(endTag, function(match) {console.log(match); var txt = match + '</div>'; console.log(txt); return txt;});
         console.log(html);
