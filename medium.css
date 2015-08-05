@@ -21,10 +21,11 @@ h1, h2, h3, p {
 }
 
 h1 {
+  text-align: center;
   color:#CCF;
 }
 
-ul {
+ul, ol {
   width:100%;
 }
 
