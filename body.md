@@ -1,10 +1,8 @@
 #Follow along: http://mattsayler.github.io/Automating_Feeder_Maps_Presentation
 
-(Hyperlinks look like [this](#))
+#_Automating_ Feeder Maps Using _Data Driven Pages_ and _Arcpy_
 
-##_Automating_ Feeder Maps Using _Data Driven Pages_ and _Arcpy_
-
-# OR
+OR
 
 ![](./Images/OneMXDtoRule.png)
 
@@ -18,12 +16,12 @@ _Clark Public Utilities_
 * ~185,000 Electric Meters
 * ~400 Employees
 
-#System
+#Clark GIS System
 
 * ArcGIS 10.0 SP4
 * ArcFM 10.0 SP2
 
-#Brief _History_ of Feeder Maps at Clark
+#A Brief _History_ of the Project
 
 _Dedicated_ full-time employee
 
