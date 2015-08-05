@@ -13,9 +13,12 @@
         var endTag = new RegExp("\<\/(p|h[0-9]?|pre|ul)\>", "g");
         var fixImg = new RegExp("\<p\>((<img(?:(?!\/>)[^>])+)>)\<\/p\>", "g");
         var pTag = new RegExp("\<\/?[p]\>", "g");
+        var ulTag = new RegExp("\<\/?ul\>", "g");
         html = html.replace(startTag, function(match) {var txt = '<div>' + match; return txt;});
         html = html.replace(endTag, function(match) {var txt = match + '</div>'; return txt;});
         html = html.replace(fixImg, function(match) {var txt = match.replace(pTag, ""); return txt});
+        html = html.replace(ulTag, "");
+        console.log(html);
         md.innerHTML = html;
         var s = document.getElementsByTagName('div'), cur = 0;
         if (!s) return;
