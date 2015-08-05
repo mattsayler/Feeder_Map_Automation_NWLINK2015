@@ -88,8 +88,6 @@ _Grid_ polygons
 
 Existing _Point_ feature classes
 
-![](./Images/DialogDDP.png)
-
 #_What_ is [arcpy](http://resources.arcgis.com/en/help/main/10.2/index.html#//000v000000v7000000)?
 
 Esri [python](https://www.python.org/) library for _geoprocessing_ and _other_ tasks
@@ -112,11 +110,27 @@ Feature class attributes _drive_ dynamic content
 
 ![](./Images/DrivingTables.png)
 
+![](./Images/DialogDDP.png)
+
 #Pros:
+
+_ONE_ mxd to manage!
+
+Can produce _several_ pages a day
+
+_Standardized_ map layout
 
 #Cons:
 
-#Another _Cool_ Feature
+_Limited_ number of _insets_ per page
+
+Can be _difficult_ to make _well laid-out_ insets
+
+_Non-network_ features _can't_ easily be symbolized by _feeder_
+
+(selection set layers formerly)
+
+#Another _Cool_ Feature Implemented
 
 _Dynamic_ feeder picklist!
 
