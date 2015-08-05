@@ -149,4 +149,5 @@ _Thank you!_
 * [msayler@clarkpud.com](mailto:msayler@clarkpud.com)
 * [@mattsayler](https://www.twitter.com/mattsayler)
 * [github.com/mattsayler](https://www.github.com/mattsayler)
-* Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
+
+Presentation Powered by [@calvinmetcalf's _medium_](https://github.com/calvinmetcalf/medium)
