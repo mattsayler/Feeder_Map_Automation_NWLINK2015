@@ -72,21 +72,17 @@ Go to a _standardized_, county-wide map grid w/_simplified_ symbology
 
 #Option Three
 
-Standarize map _elements_ and leverage the new _Data Driven Pages_ functionality
+Standarize map _elements_ and leverage new _Data Driven Pages_ functionality
 
 (Some _initial_ grumbling, but _no mutinies_!)
 
-#Winner
+#Bingo
 
 #_What_ are [Data Driven Pages](http://resources.arcgis.com/en/help/main/10.2/index.html#//00s90000003m000000)?
 
-_Tools_ for creating _mapbooks_ using _feature classes_ (basically)
+_Tools_ for creating _mapbooks_ using _feature classes_ 
 
-Like
-
-_Grid_ polygons
-
-Existing _Point_ feature classes
+(basically)
 
 #_What_ is [arcpy](http://resources.arcgis.com/en/help/main/10.2/index.html#//000v000000v7000000)?
 
