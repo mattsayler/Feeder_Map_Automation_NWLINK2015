@@ -25,9 +25,9 @@ _Clark Public Utilities_
 
 _Dedicated_ full-time employee
 
-~450 pages of _individually_ customized MXD files
+_~450_ pages of _individually_ customized MXD files
 
-* Custom _layouts_ w/_selection-set layers_
+* Custom _layouts_ with _selection-set_ layers
 * Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
