@@ -20,14 +20,6 @@ h1, h2, h3, p {
   margin:0;
 }
 
-h1 {
-  color:#CCF;
-}
-
-li {
-  display: list-item;
-}
-
 em {
   font-family: 'Futura', 'Helvetica';
   font-style:normal;
