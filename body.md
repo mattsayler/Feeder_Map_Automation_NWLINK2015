@@ -172,6 +172,18 @@ Achieved through modifying the script's _validation_ code
 
 ![](./Images/ScriptValidation.png)
 
+```python
+def updateParameters(self):
+  FC = r"<path to feature class>"
+  Col = "FeederID"
+  self.params[0].filter.list = [str(val) for val in sorted(
+    set(
+      row.getValue(Col) for row in arcpy.SearchCursor(FC, None, None, Col)
+    )
+  )]    
+  return
+```
+
 #Questions?
 
 _Thank you!_
