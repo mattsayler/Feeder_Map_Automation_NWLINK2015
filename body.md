@@ -25,14 +25,14 @@ _Clark Public Utilities_
 
 _Dedicated_ full-time employee
 
-_~450_ pages of _individually_ customized MXD files
+_~450_ pages of _individually customized_ MXD files
 
 * Custom _layouts_ with _selection-set_ layers
 * Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
-Page dimensions _constrained_ by storage bins
+(Side note: Page dimensions are _constrained_ by storage bins)
 
 #Example
 
@@ -80,7 +80,7 @@ Standarize map _elements_ and leverage new _Data Driven Pages_ functionality
 
 (Some _initial_ grumbling, but _no mutinies_!)
 
-#Bingo
+Bingo
 
 #_What_ are [Data Driven Pages](http://resources.arcgis.com/en/help/main/10.2/index.html#//00s90000003m000000)?
 
@@ -116,9 +116,11 @@ Feature class attributes _drive_ dynamic content
 
 ![](./Images/DrivingTables.png)
 
+MXD layout:
+
 ![](./Images/Layout_Screenshot.png)
 
-##Steps 
+#Process' Steps 
 
 For Each _Feeder_ Selected:
 
