@@ -9,7 +9,7 @@ OR
 Matt Sayler
 _Clark Public Utilities_
 
-#Obligatory _Stats_ Slide
+#_Obligatory_ Organization _Stats_ Slide
 
 * Public Utility District
 * Electric and Water
@@ -32,7 +32,7 @@ _~450_ pages of _individually customized_ MXD files
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
-(Side note: Page dimensions are _constrained_ by storage bins)
+(Side note: Page dimensions _constrained_ by storage bins)
 
 #Example
 
@@ -78,7 +78,7 @@ Go to a _standardized_, county-wide map grid w/_simplified_ symbology
 
 Standarize map _elements_ and leverage new _Data Driven Pages_ functionality
 
-(Some _initial_ grumbling, but _no mutinies_!)
+(Some _initial_ grumbling, but _no mutinies!_)
 
 Bingo
 
@@ -104,7 +104,7 @@ Greatly _reduce_ production time
 
 ![](./Images/AST4_New.png)
 
-#_How_ does it work?
+#How does it work?
 
 Data Driven Pages drive the _map_ using our _custom grids_
 
@@ -176,11 +176,13 @@ Achieved through modifying the script's _validation_ code
 def updateParameters(self):
   FC = r"<path to feature class>"
   Col = "FeederID"
-  self.params[0].filter.list = [str(val) for val in sorted(
-    set(
-      row.getValue(Col) for row in arcpy.SearchCursor(FC, None, None, Col)
+  self.params[0].filter.list = [
+    str(val) for val in sorted(
+      set(
+        row.getValue(Col) for row in arcpy.SearchCursor(FC, None, None, Col)
+      )
     )
-  )]    
+  ]    
   return
 ```
 
