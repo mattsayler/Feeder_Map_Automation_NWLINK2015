@@ -174,7 +174,7 @@ Achieved through modifying the script's _validation_ code
 
 ```python
 def updateParameters(self):
-  FC = r"<path to feature class>"
+  FC = r"<path to breakers feature class>"
   Col = "FeederID"
   self.params[0].filter.list = [
     str(val) for val in sorted(
