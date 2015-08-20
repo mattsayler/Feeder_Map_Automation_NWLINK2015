@@ -118,6 +118,26 @@ Feature class attributes _drive_ dynamic content
 
 ![](./Images/Layout_Screenshot.png)
 
+##Steps 
+
+For Each _Feeder_ Selected:
+
+Empty _PDF_ generated
+
+_Symbology_ set up via _definition queries_
+
+For Each _Page_:
+
+Map _text elements_ updated
+
+_Inset elements_ moved onto layout (as needed)
+
+(_Zoom_ to specified _feature/scale_)
+
+Temp _PDF_ for _page_ created
+
+Temp _page_ added to _empty PDF_
+
 #Pros:
 
 _ONE_ mxd to manage!
