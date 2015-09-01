@@ -18,8 +18,7 @@ Electric and Water<br/>
 
 #Clark GIS System
 
-ArcGIS 10.0 SP4<br/>
-ArcFM 10.0 SP2
+ArcGIS 10.0 SP4<br/>ArcFM 10.0 SP2
 
 #Where Things _Started_
 
@@ -27,8 +26,9 @@ _Dedicated_ full-time employee
 
 _~450_ pages of _individually customized_ MXD files
 
-* Custom _layouts_ with _selection-set_ layers
-* Custom _jpegs_ for inset details (_~300_ images)
+Including:<br/>
+Custom _layouts_ with _selection-set_ layers<br/>
+Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
