@@ -18,7 +18,7 @@ Electric and Water<br/>
 
 #Clark GIS System
 
-ArcGIS 10.0 SP4<br/>ArcFM 10.0 SP2
+ArcGIS 10.0 SP4&#10;ArcFM 10.0 SP2
 
 #Where Things _Started_
 
