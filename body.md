@@ -11,14 +11,19 @@ _Clark Public Utilities_
 
 #_Obligatory_ Organization _Stats_ Slide
 
-Public Utility District<br/>
-Electric and Water<br/>
-~185,000 Electric Meters<br/>
+Public Utility District
+
+Electric and Water
+
+~185,000 Electric Meters
+
 ~400 Employees
 
 #Clark GIS System
 
-ArcGIS 10.0 SP4&#10;ArcFM 10.0 SP2
+ArcGIS 10.0 SP4
+
+ArcFM 10.0 SP2
 
 #Where Things _Started_
 
@@ -26,15 +31,15 @@ _Dedicated_ full-time employee
 
 _~450_ pages of _individually customized_ MXD files
 
-Including:<br/>
-Custom _layouts_ with _selection-set_ layers<br/>
+Custom _layouts_ with _selection-set_ layers
+
 Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
 (Side note: Page dimensions _constrained_ by storage bins)
 
-#Example
+#Example _Old_ Feeder Map
 
 ![](./Images/AST4_Original.png)
 
@@ -112,7 +117,7 @@ Data Driven Pages drive the _map_ using our _custom grids_
 
 A _point_ feature class stores info for _detail insets_
 
-Feature class attributes _drive_ dynamic content
+_Grid_ feature class' attributes _drive_ the dynamic content
 
 ![](./Images/DrivingTables.png)
 
