@@ -11,14 +11,14 @@ _Clark Public Utilities_
 
 #_Obligatory_ Organization _Stats_ Slide
 
-Public Utility District,
-Electric and Water,
-~185,000 Electric Meters,
+Public Utility District<br/>
+Electric and Water<br/>
+~185,000 Electric Meters<br/>
 ~400 Employees
 
 #Clark GIS System
 
-ArcGIS 10.0 SP4,
+ArcGIS 10.0 SP4<br/>
 ArcFM 10.0 SP2
 
 #Where Things _Started_
