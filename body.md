@@ -113,9 +113,9 @@ Data Driven Pages drive the _map_ using our _custom grids_
 
 ![](./Images/DialogDDP.png)
 
-A _point_ feature class stores info for _detail insets_
-
 _Grid_ feature class' attributes _drive_ the dynamic content
+
+A _point_ feature class stores info for _detail insets_
 
 ![](./Images/DrivingTables.png)
 
@@ -137,7 +137,7 @@ Map _text elements_ updated
 
 _Inset elements_ moved onto layout (as needed)
 
-(_Zoom_ to specified _feature/scale_)
+(_Zoom_ to specified _feature & scale_)
 
 Temp _PDF_ for _page_ created
 
