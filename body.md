@@ -37,8 +37,6 @@ Custom _jpegs_ for inset details (_~300_ images)
 
 Custom _'best-fit'_ grid layout for _each_ feeder
 
-(Side note: Page dimensions _constrained_ by storage bins)
-
 #Example _Old_ Feeder Map
 
 ![](./Images/AST4_Original.png)
