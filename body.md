@@ -1,4 +1,4 @@
-#Follow along: http://mattsayler.github.io/Automating_Feeder_Maps_Presentation
+#Follow along: http://mattsayler.github.io/Feeder_Map_Automation_NWLINK2015
 
 #_Automating_ Feeder Maps Using _Data Driven Pages_ and _Arcpy_
 
